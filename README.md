@@ -40,7 +40,7 @@ dependencyResolutionManagement {
 
 ```groovy
 dependencies {
-    implementation 'com.github.dxycw:zwkfb_view:0.3.8' // 添加 zwkfb_view 依赖
+    implementation 'com.github.dxycw:zwkfb_view:0.3.9' // 添加 zwkfb_view 依赖
 }
 ```
 
@@ -48,7 +48,7 @@ dependencies {
 
 ```kotlin
 dependencies {
-    implementation("com.github.dxycw:zwkfb_view:0.3.8") // 添加 zwkfb_view 依赖
+    implementation("com.github.dxycw:zwkfb_view:0.3.9") // 添加 zwkfb_view 依赖
 }
 ```
 
@@ -62,11 +62,11 @@ dependencies {
 
 * androidx.core:core-ktx:1.18.0
 * androidx.appcompat:appcompat:1.7.1 
-* com.google.android.material:material:1.14.0-alpha10 ([material](https://github.com/material-components/material-components-android))
+* com.google.android.material:material:1.14.0 ([material](https://github.com/material-components/material-components-android))
 * androidx.activity:activity:1.13.0
 * androidx.constraintlayout:constraintlayout:2.2.1 
 * androidx.swiperefreshlayout:swiperefreshlayout:1.2.0
-* androidx.webkit:webkit:1.16.0-alpha04
+* androidx.webkit:webkit:1.16.0
 
 ## 其他依赖库
 
@@ -74,12 +74,12 @@ dependencies {
 * com.github.OCNYang.ImmersionBar:immersionbar-ktx:3.4.6 ([ImmersionBar](https://github.com/OCNYang/ImmersionBar))
 * com.gitee.zackratos:UltimateBarX:v0.8.1 ([UltimateBarX](https://gitee.com/zackratos/UltimateBarX))
 * com.squareup.okhttp3:okhttp:5.3.2 ([OkHttp](https://square.github.io/okhttp/))
-* com.google.code.gson:gson:2.13.2 ([Gson](https://github.com/google/gson))
+* com.google.code.gson:gson:2.14.0 ([Gson](https://github.com/google/gson))
 * io.noties.markwon:core:4.6.2 ([Markwon](https://github.com/noties/Markwon))
-* androidx.media3:media3-exoplayer:1.10.0 ([ExoPlayer](https://github.com/androidx/media))
-* androidx.media3:media3-datasource-okhttp:1.10.0 ([OkHttp](https://github.com/androidx/media))
-* androidx.media3:media3-ui:1.10.0 ([Media3 UI](https://github.com/androidx/media))
-* com.github.CarGuo.GSYVideoPlayer:gsyvideoplayer:v12.0.0 ([GSYVideoPlayer](https://github.com/CarGuo/GSYVideoPlayer))
+* androidx.media3:media3-exoplayer:1.10.1 ([ExoPlayer](https://github.com/androidx/media))
+* androidx.media3:media3-datasource-okhttp:1.10.1 ([OkHttp](https://github.com/androidx/media))
+* androidx.media3:media3-ui:1.10.1 ([Media3 UI](https://github.com/androidx/media))
+* com.github.CarGuo.GSYVideoPlayer:gsyvideoplayer:v13.0.0 ([GSYVideoPlayer](https://github.com/CarGuo/GSYVideoPlayer))
 * com.github.bilibili.DanmakuFlameMaster:DanmakuFlameMaster:0.9.25 ([DanmakuFlameMaster](https://github.com/bilibili/DanmakuFlameMaster))
 * org.mozilla.geckoview:geckoview-nightly:145.0.20251006095753 ([Geckoview](https://mozilla.github.io/geckoview/javadoc/mozilla-central/org/mozilla/geckoview/doc-files/CHANGELOG))
 * org.mozilla.geckoview:geckoview-exoplayer2-nightly:145.0.20251006095753 ([Geckoview](https://mozilla.github.io/geckoview/javadoc/mozilla-central/org/mozilla/geckoview/doc-files/CHANGELOG))
@@ -91,6 +91,16 @@ dependencies {
 如果使用混淆并且使用了“MySQL”、“Geckoview”依赖库，请查看[打包体积压缩](%E6%89%93%E5%8C%85%E4%BD%93%E7%A7%AF%E5%8E%8B%E7%BC%A9.md)。
 
 # 更新内容
+
+## 0.3.9
+
+* 修改 依赖库名 “zwkfb_view” 为 “zwkfb-view”；
+* 更新 AGP 版本为 9.2.1;
+* 更新 com.google.android.material:material 依赖库版本为 1.14.0；
+* 更新 androidx.webkit:webkit 依赖库版本为 1.16.0；
+* 更新 com.google.code.gson:gson 依赖库版本为 2.14.0；
+* 更新 androidx.media3 所有依赖库版本为 1.10.1；
+* 更新 com.github.CarGuo.GSYVideoPlayer:gsyvideoplayer 依赖库版本为 v13.0.0；
 
 ## 0.3.8
 

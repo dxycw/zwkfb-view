@@ -30,4 +30,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "中文开发包"
 include(":app")
-include(":zwkfb_view")
+include(":zwkfb")

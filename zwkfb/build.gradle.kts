@@ -61,7 +61,7 @@ publishing {
         create<MavenPublication>("release") {
             groupId = "com.github.dxycw"
             artifactId = "zwkfb_view"
-            version = "0.3.8"
+            version = "0.3.9"
             // 关键：使用 afterEvaluate 获取组件
             afterEvaluate {
                 from(components["release"])
@@ -74,7 +74,7 @@ dependencies {
     api("androidx.core:core-ktx:1.18.0") // 核心ktx库
 
     api("androidx.appcompat:appcompat:1.7.1") // appcompat库
-    api("com.google.android.material:material:1.14.0-alpha10") // material库
+    api("com.google.android.material:material:1.14.0") // material库
     api("androidx.activity:activity:1.13.0") // activity库
     api("androidx.constraintlayout:constraintlayout:2.2.1") // 约束布局库
     api("androidx.swiperefreshlayout:swiperefreshlayout:1.2.0") // 下拉刷新库
@@ -103,7 +103,7 @@ dependencies {
 //    api("androidx.bluetooth:bluetooth:1.0.0-alpha02")
 
     //它本身不是新内核，而是给系统 WebView 增加了新 API，并保证在低版本系统上也能调用，开发者无需自己写版本判断。
-    api("androidx.webkit:webkit:1.16.0-alpha04")
+    api("androidx.webkit:webkit:1.16.0")
 
     //=====================================================================
 
@@ -132,8 +132,8 @@ dependencies {
 
     //=====================================================================
 
-    // Json解析,是 Google 官方出品的 Java/Kotlin JSON 解析库 Gson 的 2.13.2 版本，用于把 JSON 字符串 ↔ Java/Kotlin 对象 之间做 序列化 / 反序列化。
-    api("com.google.code.gson:gson:2.13.2")
+    // Json解析,是 Google 官方出品的 Java/Kotlin JSON 解析库 Gson 的 2.14.0 版本，用于把 JSON 字符串 ↔ Java/Kotlin 对象 之间做 序列化 / 反序列化。
+    api("com.google.code.gson:gson:2.14.0")
 
     //=====================================================================
 
@@ -142,7 +142,7 @@ dependencies {
     
     //=====================================================================
 
-    val media3Version = "1.10.0"
+    val media3Version = "1.10.1"
     // 使用 ExoPlayer 播放媒体 核心库
     api("androidx.media3:media3-exoplayer:$media3Version")
 
@@ -217,7 +217,7 @@ dependencies {
     //=====================================================================
 
     // GSYVideoPlayer 播放器
-    api("com.github.CarGuo.GSYVideoPlayer:gsyvideoplayer:v12.0.0")
+    api("com.github.CarGuo.GSYVideoPlayer:gsyvideoplayer:v13.0.0")
 
     //=====================================================================
 

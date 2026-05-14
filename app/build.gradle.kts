@@ -67,7 +67,7 @@ android {
 
 dependencies {
 
-    implementation(project(":zwkfb_view")){
+    implementation(project(":zwkfb")){
 
         exclude("mysql", "mysql-connector-java")
 
